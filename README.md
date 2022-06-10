@@ -7,8 +7,12 @@ Then install python dependencies using:
 
 ```bash
   cd backend
-  pip install -r requirement.txt
-  python manage.py makemigrations
+  pip install -r requirements.txt
+```
+
+When you change the model(s) run the commands:
+```bash
+  python  manage.py makemigrations
   python manage.py migrate
 ```
 
